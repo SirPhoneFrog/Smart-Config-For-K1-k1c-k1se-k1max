@@ -23,10 +23,16 @@ Replace section with [include ******] with same from your config.
 After:
 1. Calibrate shapers and look on graphs
 2. Calibrate PID
-   ```PID_CALIBRATE HEATER=extruder TARGET=295```
-   ```PID_CALIBRATE HEATER=heater_bed TARGET=80```
-   ```SAVE_CONFIG```
-3. Replase your **start gcode** with this:
+   ```
+   PID_CALIBRATE HEATER=extruder TARGET=295
+   ```
+   ```
+   PID_CALIBRATE HEATER=heater_bed TARGET=80
+   ```
+   ```
+   SAVE_CONFIG
+   ```
+4. Replase your **start gcode** with this:
    ```
    M140 S0 
    M104 S0 
