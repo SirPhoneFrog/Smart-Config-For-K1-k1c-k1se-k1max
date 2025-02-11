@@ -27,6 +27,9 @@ After:
    PID_CALIBRATE HEATER=extruder TARGET=295
    ```
    ```
+   SAVE_CONFIG
+   ```
+   ```
    PID_CALIBRATE HEATER=heater_bed TARGET=80
    ```
    ```
