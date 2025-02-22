@@ -11,11 +11,11 @@ k1 series-for upgraded k1 se/k1c/k1 with 20 teeth pulleys
 # Changes
 1. Build volume for X axis is maximal, 235mm. +15mm to stck one (I tested with 233mm long part printed)
 2. Acceleration and limits
-3. Accel_per_hz: bigger for right calibration of shapers, if you installed the LATEST version of klipper with NEW shapers calibration or installed anoter spring on X-replace with stock
-4. No interpolation. No interpolatin on CoreXY please.
-5. Btt sfs 2 support.
+3. No interpolation. No interpolation on CoreXY please.
+4. Btt sfs 2 support.
+5. no stealthchop
    
-# Wher for K1MAX?
+# Where for K1MAX?
 I don't have it, I can't test it
 
 # How to use?
